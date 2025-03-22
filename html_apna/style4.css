@@ -1,0 +1,40 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+    text-align: right;
+    padding: 25px;
+    margin: 25px;
+}
+h1{
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: dashed;
+    text-align: center;
+    border: 5px dotted red;
+}
+.div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    text-align: right;
+    border-radius: 10px;
+    padding: 1px 2px 3px 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box3{
+    border-radius: 25px;
+    padding: 25px;
+}
+#box1{
+    padding-right: 25px;
+}

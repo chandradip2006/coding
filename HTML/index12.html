@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html forms</title>
+</head>
+<body>
+    <form>
+        <h2>text form</h2>
+        <label for="firstname"> first name :</label>
+        <input type="text" placeholder="enter first name" id="firstname"><br>
+        <label for="lastname">last name :</label>
+        <input type="text" placeholder="enter last name" id="lastname">
+
+        <h2>password form</h2>
+        <label for="password">password :</label>
+        <input type="password" placeholder="enter the password" id="password">
+
+        <h2>check box</h2>
+        <input type="checkbox" id="checkbox" value="agree">
+        <label for="checkbox">i agree with the terms and conditions.</label>
+
+        <h2>radio button</h2>
+        <label for="question1"><strong>which of the following is the lowest layer of the atmosphere ?</strong><strong></strong></label>
+        <p>options:</p>
+        <input type="radio" id="option1" name="question1">
+        <label for="option1">thermosphere</label><br>
+        <input type="radio" id="option2" name="question1">
+        <label for="option2">mesosphere</label><br>
+        <input type="radio" id="option3" name="question1">
+        <label for="option3">troposphere</label><br>
+        <input type="radio" id="option4" name="question1">
+        <label for="option4">stratosphere</label>
+
+        <h4>which of the following is the lowest layer of the atmosphere ?</h4>
+        <p>options:</p>
+        <input type="checkbox" id="option1">
+        <label for="option1">thermosphere</label><br>
+        <input type="checkbox" id="option2">
+        <label for="option2">mesosphere</label><br>
+        <input type="checkbox" id="option3">
+        <label for="option3">troposphere</label><br>
+        <input type="checkbox" id="option4">
+        <label for="option4">stratosphere</label><br>
+
+        <h2>select</h2>
+        <label for="country">location country</label>
+        <select id="country" >
+            <option value="india">india</option>
+            <option value="pakistan">pakistan</option>
+            <option value="canada">canada</option>
+            <option value="USA">USA</option>
+            <option value="bangladesh">bangladesh</option>
+            <option value="germany">germany</option>
+            <option value="australia">australia</option>
+            <option value="england">england</option>
+            <option value="france">france</option>
+        </select>
+
+        <h2>text area</h2>
+        <label for="text">comments :</label>
+        <textarea name="comments" id="text" placeholder="write your comments" rows="5" cols="50"></textarea><br>
+
+        <h2>files</h2>
+        <label for="files">upload your marksheet :</label>
+        <input type="file" name="file" id="files"><br>
+
+        <input type="submit"><br>
+        <input type="reset">
+
+    </form>
+
+    
+</body>
+</html>

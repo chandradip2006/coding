@@ -1,0 +1,27 @@
+*{
+    color: blue;
+}
+/* h2{ 
+    color: red;
+} */
+p{
+    color:#ff0000;
+}
+button{
+    color:brown;
+    background-color: lightgreen ;
+}
+
+body{
+    background-color: aqua;
+}
+#h1{
+    color: yellow;
+}
+#h2{
+    color: green;
+}
+.heading{
+    color: magenta;
+}
+

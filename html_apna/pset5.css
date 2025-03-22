@@ -1,0 +1,10 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-image: url("cat.jpeg");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}

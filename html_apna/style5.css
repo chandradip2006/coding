@@ -1,0 +1,44 @@
+div{
+    background-color: pink;
+}
+button{
+    display: block;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box1{
+    background-color: blue;
+    visibility: hidden;
+
+}
+#box2{
+    background-color: green;
+    display: none;
+}
+#box3{
+    background-color: rgba(255,0,0,0.2);
+}
+#box4{
+    background-color: rgba(0,0,255,0.1);
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
+    height: 50vh;
+    width: 50vw;
+}
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    margin-left: 30%;
+    font-size: 2em;
+    width: 2em;
+    width: 4rem;
+}
