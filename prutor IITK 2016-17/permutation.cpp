@@ -15,7 +15,7 @@ void permutation(vector<int>&v , vector<int>&temp  , unordered_map<int , int>&m,
                 m[v[i]]=1;
                 temp.push_back(v[i]);
                 permutation(v , temp  , m , n);
-                m[v[i]]=0;
+                m[temp[temp.size()-1]]=0;
                 temp.pop_back();
             }
         }
